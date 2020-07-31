@@ -1,0 +1,23 @@
+{
+  "name": "the-kosher-eats",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd -e production,everywhere node index.js",
+    "dev": "env-cmd -e development,everywhere nodemon index.js",
+    "lint": "eslint \"server/**\""
+  },
+  "author": "moshab97",
+  "license": "ISC",
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "eslint": "^7.5.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "awilix": "^4.2.6",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.9"
+  }
+}
